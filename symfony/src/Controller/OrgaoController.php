@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Banca;
 use FOS\RestBundle\View\View;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -23,7 +24,8 @@ class OrgaoController extends AbstractController
      */
     public function getList(Request $request)
     {
-        return $this->json([["teste" => "teste"]], Response::HTTP_OK);
+        $list = $this->getDoctrine()->getRepository(Banca::class)->findAll();
+        return $this->json($list, Response::HTTP_OK);
     }
 
 }
