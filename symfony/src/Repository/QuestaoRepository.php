@@ -19,32 +19,21 @@ class QuestaoRepository extends ServiceEntityRepository
         parent::__construct($registry, Questao::class);
     }
 
-    // /**
-    //  * @return Questao[] Returns an array of Questao objects
-    //  */
-    /*
-    public function findByExampleField($value)
-    {
-        return $this->createQueryBuilder('q')
-            ->andWhere('q.exampleField = :val')
-            ->setParameter('val', $value)
-            ->orderBy('q.id', 'ASC')
-            ->setMaxResults(10)
-            ->getQuery()
-            ->getResult()
-        ;
-    }
-    */
+    public function getQuantidadeAgrupadaPorAssunto(int $idBanca, int $idOrgao) {
+        $sql =  "SELECT 
+                        asu.id as assunto_id,
+                        asu.nome,
+                        asu.assunto_pai_id,
+                        count(q.id) as qtd_questoes
+                FROM assunto asu
+                         INNER JOIN
+                     questao q on asu.id = q.assunto_id
+                WHERE q.banca_id = {$idBanca}
+                  AND q.orgao_id = {$idOrgao}
+                GROUP BY asu.id, asu.nome, asu.assunto_pai_id";
 
-    /*
-    public function findOneBySomeField($value): ?Questao
-    {
-        return $this->createQueryBuilder('q')
-            ->andWhere('q.exampleField = :val')
-            ->setParameter('val', $value)
-            ->getQuery()
-            ->getOneOrNullResult()
-        ;
+        $stmt = $this->getEntityManager()->getConnection()->prepare($sql);
+        $stmt->execute();
+        return $stmt->fetchAll();
     }
-    */
 }

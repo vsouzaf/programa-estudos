@@ -2,6 +2,8 @@
 
 namespace App\Controller;
 
+use App\Entity\Questao;
+use App\Repository\QuestaoRepository;
 use FOS\RestBundle\View\View;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -23,7 +25,35 @@ class ProgramaEstudoController extends AbstractController
      */
     public function getList(Request $request)
     {
-        return $this->json([["teste" => "teste"]], Response::HTTP_OK);
+        $programaDeEstudo = $this->criarProgramaDeEstudos($request);
+        return $this->json($programaDeEstudo, Response::HTTP_OK);
     }
 
+    private function criarProgramaDeEstudos(Request $request)
+    {
+        /** @var QuestaoRepository $questaoRepository */
+        $questaoRepository = $this->getDoctrine()->getRepository(Questao::class);
+
+        $bancaId = $request->get("banca");
+        $orgaoId = $request->get("orgao");
+
+        $arrAssunto = $questaoRepository->getQuantidadeAgrupadaPorAssunto($bancaId,
+            $orgaoId);
+
+        return $this->getArvoreAssuntos($arrAssunto);
+    }
+
+    private function getArvoreAssuntos(array $arrAssunto, $assuntoPaiId = null)
+    {
+        $arrArvoreAssuntos = [];
+        foreach ($arrAssunto as $assunto) {
+            if($assuntoPaiId == $assunto['assunto_pai_id']) {
+                $arvoreAssuntoItem = $assunto;
+                $arvoreAssuntoItem['sub_itens'] = $this->getArvoreAssuntos($arrAssunto, $assunto['assunto_id']);
+                $arrArvoreAssuntos[] = $arvoreAssuntoItem;
+            }
+        }
+
+        return $arrArvoreAssuntos;
+    }
 }
