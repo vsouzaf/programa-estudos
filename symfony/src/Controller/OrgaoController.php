@@ -2,7 +2,6 @@
 
 namespace App\Controller;
 
-use App\Entity\Banca;
 use App\Entity\Orgao;
 use FOS\RestBundle\View\View;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -21,12 +20,12 @@ class OrgaoController extends AbstractController
      *
      * @Rest\Get("/", name="_lista")
      * @param Request $request
-     * @return Response
+     * @return View
      */
     public function getList(Request $request)
     {
         $list = $this->getDoctrine()->getRepository(Orgao::class)->findAll();
-        return $this->json($list, Response::HTTP_OK);
+        return View::create($list, Response::HTTP_OK);
     }
 
 }

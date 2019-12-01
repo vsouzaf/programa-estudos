@@ -24,13 +24,12 @@ class Assunto
     private $nome;
 
     /**
-     * @ORM\OneToOne(targetEntity="App\Entity\Assunto", cascade={"persist", "remove"})
+     * @ORM\ManyToOne(targetEntity="App\Entity\Assunto")
      */
     private $assuntoPai;
 
     public function __construct()
     {
-        $this->questaos = new ArrayCollection();
     }
 
     public function getId()
