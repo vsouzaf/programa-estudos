@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="619c0cf0-2851-43ae-bf54-10702fc0824d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/programa-estudos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/symfony.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-fpm/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-fpm/symfony.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-fpm/symfony.pool.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php-fpm/xdebug.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/web/backend/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/web/frontend/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/web/frontend/default.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prod.yml" beforeDir="false" />
-    </list>
+    <list default="true" id="619c0cf0-2851-43ae-bf54-10702fc0824d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,22 +66,34 @@
       <option name="presentableId" value="Default" />
       <updated>1575153757212</updated>
       <workItem from="1575153758912" duration="7529000" />
-      <workItem from="1575165275752" duration="676000" />
+      <workItem from="1575165275752" duration="918000" />
     </task>
+    <task id="LOCAL-00001" summary="[CHORE] Estrutura Inicial do projeto">
+      <created>1575166189238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575166189238</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[CHORE] Estrutura Inicial do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="[CHORE] Estrutura Inicial do projeto" />
   </component>
   <component name="WindowStateProjectService">
     <state x="719" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575161132443">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="719" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/52.27.1868.1053@52.27.1868.1053" timestamp="1575161132443" />
-    <state x="551" y="150" width="860" height="814" key="CommitChangelistDialog2" timestamp="1575154429471">
+    <state x="551" y="150" width="860" height="814" key="CommitChangelistDialog2" timestamp="1575166189020">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="551" y="150" width="860" height="814" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575154429471" />
+    <state x="551" y="150" width="860" height="814" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575166189020" />
     <state x="229" y="121" width="1494" height="879" key="DiffContextDialog" timestamp="1575154428309">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
@@ -120,6 +106,10 @@
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="475" y="188" width="1022" height="737" key="SettingsEditor/52.27.1868.1053@52.27.1868.1053" timestamp="1575165291435" />
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575166193269">
+      <screen x="52" y="27" width="1868" height="1053" />
+    </state>
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1868.1053@52.27.1868.1053" timestamp="1575166193269" />
     <state x="642" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1575165279798">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
