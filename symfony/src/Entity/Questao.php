@@ -22,7 +22,7 @@ class Questao
     private $nome;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Assunto", inversedBy="questaos")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Assunto")
      */
     private $assunto;
 
