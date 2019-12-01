@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="619c0cf0-2851-43ae-bf54-10702fc0824d" name="Default Changelist" comment="" />
+    <list default="true" id="619c0cf0-2851-43ae-bf54-10702fc0824d" name="Default Changelist" comment="[CHORE] Estrutura Inicial do projeto">
+      <change afterPath="$PROJECT_DIR$/symfony/src/Controller/BancaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony/src/Controller/OrgaoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony/src/Controller/ProgramaEstudoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php-fpm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php-fpm/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/.env" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/cache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/dev/jms_serializer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/dev/jms_serializer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/fos_rest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/fos_rest.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/jms_serializer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/jms_serializer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/prod/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/prod/jms_serializer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/prod/jms_serializer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/prod/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/prod/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/test/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/test/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/routes/annotations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/src/Controller/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/src/Entity/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/src/Migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/src/Migrations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/src/Repository/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/symfony.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +60,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/symfony/src/Controller" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -38,6 +72,8 @@
       <recent name="$PROJECT_DIR$/backend" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/symfony/src/Controller" />
+      <recent name="$PROJECT_DIR$/php-fpm" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/symfony" />
       <recent name="$PROJECT_DIR$/docker" />
@@ -66,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575153757212</updated>
       <workItem from="1575153758912" duration="7529000" />
-      <workItem from="1575165275752" duration="918000" />
+      <workItem from="1575165275752" duration="7875000" />
     </task>
     <task id="LOCAL-00001" summary="[CHORE] Estrutura Inicial do projeto">
       <created>1575166189238</created>
@@ -75,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575166189238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[CHORE] Estrutura Inicial do projeto">
+      <created>1575166255389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575166255389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,30 +129,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="[CHORE] Estrutura Inicial do projeto" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="661" y="362" width="630" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575201055381">
+      <screen x="52" y="27" width="1868" height="1053" />
+    </state>
+    <state x="661" y="362" width="630" height="397" key="#com.intellij.fileTypes.FileTypeChooser/52.27.1868.1053@52.27.1868.1053" timestamp="1575201055381" />
     <state x="719" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575161132443">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="719" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/52.27.1868.1053@52.27.1868.1053" timestamp="1575161132443" />
-    <state x="551" y="150" width="860" height="814" key="CommitChangelistDialog2" timestamp="1575166189020">
+    <state x="551" y="150" width="860" height="814" key="CommitChangelistDialog2" timestamp="1575204971354">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="551" y="150" width="860" height="814" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575166189020" />
-    <state x="229" y="121" width="1494" height="879" key="DiffContextDialog" timestamp="1575154428309">
+    <state x="551" y="150" width="860" height="814" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575204971353" />
+    <state x="229" y="121" width="1494" height="879" key="DiffContextDialog" timestamp="1575204748145">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="229" y="121" width="1494" height="879" key="DiffContextDialog/52.27.1868.1053@52.27.1868.1053" timestamp="1575154428309" />
+    <state x="229" y="121" width="1494" height="879" key="DiffContextDialog/52.27.1868.1053@52.27.1868.1053" timestamp="1575204748145" />
     <state x="769" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1575161720477">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="769" y="311" width="424" height="491" key="FileChooserDialogImpl/52.27.1868.1053@52.27.1868.1053" timestamp="1575161720477" />
+    <state x="640" y="367" width="681" height="380" key="NewPhpClassDialog" timestamp="1575199502929">
+      <screen x="52" y="27" width="1868" height="1053" />
+    </state>
+    <state x="640" y="367" width="681" height="380" key="NewPhpClassDialog/52.27.1868.1053@52.27.1868.1053" timestamp="1575199502929" />
     <state x="475" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1575165291435">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="475" y="188" width="1022" height="737" key="SettingsEditor/52.27.1868.1053@52.27.1868.1053" timestamp="1575165291435" />
-    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575166193269">
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575166256751">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1868.1053@52.27.1868.1053" timestamp="1575166193269" />
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1868.1053@52.27.1868.1053" timestamp="1575166256751" />
     <state x="642" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1575165279798">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
