@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="619c0cf0-2851-43ae-bf54-10702fc0824d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuejs/assets/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuejs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/programa-estudos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/programa-estudos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/.env" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuejs/assets/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/vuejs/assets/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuejs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vuejs/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +129,7 @@
       <updated>1575153757212</updated>
       <workItem from="1575153758912" duration="7529000" />
       <workItem from="1575165275752" duration="12801000" />
-      <workItem from="1575211395432" duration="19946000" />
+      <workItem from="1575211395432" duration="21073000" />
     </task>
     <task id="LOCAL-00001" summary="[CHORE] Estrutura Inicial do projeto">
       <created>1575166189238</created>
@@ -201,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575226089719</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[FEAT] Serviços do Programa de Estudos&#10;[FEAT] Criação do front end">
+      <created>1575250799035</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575250799035</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[FEAT] Serviços do Programa de Estudos&#10;[FEAT] Criação do front end">
+      <created>1575250819690</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575250819690</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +222,8 @@
     <MESSAGE value="[FEAT] Criação das Controllers" />
     <MESSAGE value="[FEAT] Criação das entidades" />
     <MESSAGE value="[FEAT] Serviços do Programa de Estudos" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEAT] Serviços do Programa de Estudos" />
+    <MESSAGE value="[FEAT] Serviços do Programa de Estudos&#10;[FEAT] Criação do front end" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEAT] Serviços do Programa de Estudos&#10;[FEAT] Criação do front end" />
   </component>
   <component name="WindowStateProjectService">
     <state x="581" y="215" width="800" height="684" key="#Plugins" timestamp="1575246590841">
@@ -246,10 +254,10 @@
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="730" y="94" width="501" height="926" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/52.27.1868.1053@52.27.1868.1053" timestamp="1575225516560" />
-    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2" timestamp="1575250798908">
+    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2" timestamp="1575250819632">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575250798908" />
+    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575250819632" />
     <state x="229" y="121" width="1494" height="879" key="DiffContextDialog" timestamp="1575206749780">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
@@ -290,10 +298,10 @@
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="1296" y="471" width="303" height="171" key="VCS.ChangelistChooser/52.27.1868.1053@52.27.1868.1053" timestamp="1575220361203" />
-    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575250800688">
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575250820797">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1868.1053@52.27.1868.1053" timestamp="1575250800688" />
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1868.1053@52.27.1868.1053" timestamp="1575250820797" />
     <state x="802" y="450" width="367" height="237" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1575219352682">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
