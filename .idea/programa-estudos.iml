@@ -7,5 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="bootstrap-vue" level="application" />
+    <orderEntry type="library" name="polyfill" level="application" />
+    <orderEntry type="library" name="vue" level="application" />
+    <orderEntry type="library" name="axios" level="application" />
   </component>
 </module>
