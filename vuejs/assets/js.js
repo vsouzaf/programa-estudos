@@ -1,4 +1,31 @@
 window.onload = () => {
+    // define the tree-item component
+    Vue.component('tree-item', {
+        template: '#item-template',
+        props: {
+            item: Object
+        },
+        data: function () {
+            return {
+                isOpen: false
+            }
+        },
+        computed: {
+            isFolder: function () {
+                return this.item.sub_itens &&
+                    this.item.sub_itens.length
+            }
+        },
+        methods: {
+            toggle: function () {
+                if (this.isFolder) {
+                    this.isOpen = !this.isOpen
+                }
+            }
+        }
+    })
+
+
     new Vue({
         el: '#app',
         data() {
@@ -9,6 +36,7 @@ window.onload = () => {
                 },
                 bancas: [],
                 orgaos: [],
+                arvoreProgramaEstudo: [],
                 show: true
             }
         },
@@ -41,7 +69,10 @@ window.onload = () => {
             },
             onSubmit(evt) {
                 evt.preventDefault()
-                alert(JSON.stringify(this.form))
+                axios
+                    .get('http://symfony.localhost/api/programa_estudo/',
+                        {params: this.form})
+                    .then(response => this.arvoreProgramaEstudo = response.data);
             }
         }
     })

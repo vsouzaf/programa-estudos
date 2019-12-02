@@ -9,16 +9,10 @@
     <title>Programa de Estudos</title>
 
     <!-- Required Stylesheets -->
-    <link
-            type="text/css"
-            rel="stylesheet"
-            href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css"
-    />
-    <link
-            type="text/css"
-            rel="stylesheet"
-            href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"
-    />
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css.css"/>
 
     <!-- Load polyfills to support older browsers -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver"></script>
@@ -31,35 +25,73 @@
 </head>
 <body>
 <!-- Our application root element -->
-<div id="app">
+<div id="app" style="background: #fafafa">
     <b-navbar toggleable="lg" type="dark" variant="info">
         <b-navbar-brand href="#">Programa de Estudos</b-navbar-brand>
     </b-navbar>
 
-    <b-container>
-        <b-row style="margin-top: 10px; padding: 10px; background: #fafafa">
-            <b-form @submit="onSubmit" v-if="show">
-                <b-form-group id="input-group-3" label="Órgão:" label-for="input-orgao">
-                    <b-form-select
-                            id="input-orgao"
-                            v-model="form.orgao"
-                            :options="orgaos"
-                            required
-                    ></b-form-select>
-                </b-form-group>
+    <b-container style="background: #fcfcfc">
+        <b-row class="row-principal">
+            <b-col>
+                <b-form @submit="onSubmit" v-if="show">
+                    <b-form-group id="input-group-3" label="Órgão:" label-for="input-orgao">
+                        <b-form-select
+                                id="input-orgao"
+                                v-model="form.orgao"
+                                :options="orgaos"
+                                required
+                        ></b-form-select>
+                    </b-form-group>
 
-                <b-form-group id="input-group-3" label="Banca:" label-for="input-banca">
-                    <b-form-select
-                            id="input-banca"
-                            v-model="form.banca"
-                            :options="bancas"
-                            required
-                    ></b-form-select>
-                </b-form-group>
-                <b-button type="submit" variant="success">Gerar Programa de Estudos</b-button>
-            </b-form>
+                    <b-form-group id="input-group-3" label="Banca:" label-for="input-banca">
+                        <b-form-select
+                                id="input-banca"
+                                v-model="form.banca"
+                                :options="bancas"
+                                required
+                        ></b-form-select>
+                    </b-form-group>
+                    <b-button type="submit" variant="success">Gerar Programa de Estudos</b-button>
+                </b-form>
+            </b-col>
+        </b-row>
+
+        <b-row class="row-principal">
+            <b-col>
+                <tree-item
+                        class="item"
+                        v-for="(assunto, index) in arvoreProgramaEstudo"
+                        :key="index"
+                        :item="assunto"
+                ></tree-item>
+            </b-col>
         </b-row>
     </b-container>
 </div>
+
+
+<script type="text/x-template" id="item-template">
+    <li>
+        <div class="conatiner-item" @click="toggle">
+            <div class="content-item">
+                {{ item.nome }}
+                <span v-if="isFolder" class="btn-abrir-sub-item" :class="{aberto: isOpen}">
+                    >
+                </span>
+                <span class="qtd-questoes-item" title="Quantidade de Questões">
+                    {{ item.qtd_questoes }}
+                </span>
+            </div>
+        </div>
+        <ul v-show="isOpen" v-if="isFolder">
+            <tree-item
+                    class="item"
+                    v-for="(sub_item, index) in item.sub_itens"
+                    :key="index"
+                    :item="sub_item"
+            ></tree-item>
+        </ul>
+    </li>
+</script>
 </body>
 </html>
