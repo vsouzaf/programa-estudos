@@ -130,7 +130,7 @@
       <updated>1575153757212</updated>
       <workItem from="1575153758912" duration="7529000" />
       <workItem from="1575165275752" duration="12801000" />
-      <workItem from="1575211395432" duration="33702000" />
+      <workItem from="1575211395432" duration="34358000" />
     </task>
     <task id="LOCAL-00001" summary="[CHORE] Estrutura Inicial do projeto">
       <created>1575166189238</created>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575259716816</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[FEAT] Criação do front end">
+      <created>1575298036182</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575298036182</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,10 +277,10 @@
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="730" y="94" width="501" height="926" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/52.27.1868.1053@52.27.1868.1053" timestamp="1575225516560" />
-    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2" timestamp="1575259716735">
+    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2" timestamp="1575298036020">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575259716735" />
+    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575298036020" />
     <state x="229" y="121" width="1494" height="879" key="DiffContextDialog" timestamp="1575206749780">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
@@ -314,10 +321,10 @@
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="1296" y="471" width="303" height="171" key="VCS.ChangelistChooser/52.27.1868.1053@52.27.1868.1053" timestamp="1575220361203" />
-    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575259719538">
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575298038041">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1868.1053@52.27.1868.1053" timestamp="1575259719538" />
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1868.1053@52.27.1868.1053" timestamp="1575298038041" />
     <state x="802" y="450" width="367" height="237" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1575219352682">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>

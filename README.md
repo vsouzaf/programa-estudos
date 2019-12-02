@@ -1,4 +1,4 @@
-# Sistema de Programa de Estudos
+Sistema de Programa de Estudos
 --------------------------
 Para executar o projeto
 
