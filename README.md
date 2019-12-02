@@ -2,28 +2,39 @@ Sistema de Programa de Estudos
 --------------------------
 Para executar o projeto
 
-1. Para o subir o servidor php-fpm
+1 - Para o subir o servidor php-fpm
  ``` 
 # docker-compose up --build -d
  ```
-1.1. Executar o composer install
+1.1 - Executar o composer install
  ```  
 # docker-compose exec php composer install
 ```
-1.1 Para limpar o Banco de Dados MySql
+1.2 - Para limpar o Banco de Dados MySql
  ```
 # docker-compose exec php bin/console doctrine:schema:drop --force
  ```
-1.2 Para criar a estrutura de tabelas
+1.3 - Para criar a estrutura de tabelas
  ```
 # docker-compose exec php bin/console doctrine:schema:create
 # docker-compose exec php bin/console doctrine:migrations:migrate
  ```
 
-1.3 Para executar a carga de dados
+1.4 -  Para executar a carga de dados
 ```       
 # docker-compose exec php bin/console doctrine:fixtures:load 
  ```
+
+Diretórios do projeto
+--------------
+
+* images - Repositório de imagens do README.md
+* logs - Logs da Aplicação
+* nginx - Arquivos de configuração Docker do nginx
+* php-fpm - Arquivo de configuração Docker do php-fpm
+* symfony - Código fonte da API do projeto
+* vuejs - Código fonte do Front-End do projeto
+
 
 Utilização da API
 -------------------
@@ -44,5 +55,15 @@ Utilização da API
  ```
  
  
-![Hello World](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAUCAAAAAAVAxSkAAABrUlEQVQ4y+3TPUvDQBgH8OdDOGa+oUMgk2MpdHIIgpSUiqC0OKirgxYX8QVFRQRpBRF8KShqLbgIYkUEteCgFVuqUEVxEIkvJFhae3m8S2KbSkcFBw9yHP88+eXucgH8kQZ/jSm4VDaIy9RKCpKac9NKgU4uEJNwhHhK3qvPBVO8rxRWmFXPF+NSM1KVMbwriAMwhDgVcrxeMZm85GR0PhvGJAAmyozJsbsxgNEir4iEjIK0SYqGd8sOR3rJAGN2BCEkOxhxMhpd8Mk0CXtZacxi1hr20mI/rzgnxayoidevcGuHXTC/q6QuYSMt1jC+gBIiMg12v2vb5NlklChiWnhmFZpwvxDGzuUzV8kOg+N8UUvNBp64vy9q3UN7gDXhwWLY2nMC3zRDibfsY7wjEkY79CdMZhrxSqqzxf4ZRPXwzWJirMicDa5KwiPeARygHXKNMQHEy3rMopDR20XNZGbJzUtrwDC/KshlLDWyqdmhxZzCsdYmf2fWZPoxCEDyfIvdtNQH0PRkH6Q51g8rFO3Qzxh2LbItcDCOpmuOsV7ntNaERe3v/lP/zO8yn4N+yNPrekmPAAAAAElFTkSuQmCC)
+ Front End
+ ---------------------
+ 
+* Para abrir a página fron-end basta abrir o arquivo em um navegador: 
+
+ ```
+    vuejs/index.html
+ ```
+ 
+ 
+![Tela Front End](images/tela-front-end.png)
 

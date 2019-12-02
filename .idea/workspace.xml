@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="619c0cf0-2851-43ae-bf54-10702fc0824d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/tela-front-end.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -71,24 +72,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/symfony/src/Controller" />
+      <recent name="$PROJECT_DIR$/php-fpm" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/symfony" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.docker" />
       <recent name="$PROJECT_DIR$/docker/web/backend/nginx" />
       <recent name="$PROJECT_DIR$/docker/web/backend/php" />
       <recent name="$PROJECT_DIR$/backend" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/symfony/src/Controller" />
-      <recent name="$PROJECT_DIR$/php-fpm" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/symfony" />
-      <recent name="$PROJECT_DIR$/docker" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -130,7 +131,7 @@
       <updated>1575153757212</updated>
       <workItem from="1575153758912" duration="7529000" />
       <workItem from="1575165275752" duration="12801000" />
-      <workItem from="1575211395432" duration="43764000" />
+      <workItem from="1575211395432" duration="44196000" />
     </task>
     <task id="LOCAL-00001" summary="[CHORE] Estrutura Inicial do projeto">
       <created>1575166189238</created>
@@ -244,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575323973209</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[CHORE] criando README.md">
+      <created>1575324189460</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575324189460</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,10 +300,10 @@
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="730" y="94" width="501" height="926" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/52.27.1868.1053@52.27.1868.1053" timestamp="1575225516560" />
-    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2" timestamp="1575323973013">
+    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2" timestamp="1575324189331">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575323973013" />
+    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575324189330" />
     <state x="229" y="121" width="1494" height="879" key="DiffContextDialog" timestamp="1575206749780">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
@@ -336,10 +344,10 @@
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="1296" y="471" width="303" height="171" key="VCS.ChangelistChooser/52.27.1868.1053@52.27.1868.1053" timestamp="1575220361203" />
-    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575323975269">
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575324191073">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1868.1053@52.27.1868.1053" timestamp="1575323975269" />
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1868.1053@52.27.1868.1053" timestamp="1575324191073" />
     <state x="802" y="450" width="367" height="237" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1575318220664">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
