@@ -91,8 +91,6 @@ class AppFixtures extends Fixture
         $arrAssuntoEntity = $manager->getRepository(Assunto::class)->findAll();
 
         $this->salvarQuestoes($arrBancaEntity, $arrOrgaoEntity, $arrAssuntoEntity, $manager);
-
-        $manager->flush();
     }
 
     /**
@@ -123,7 +121,7 @@ class AppFixtures extends Fixture
     {
         foreach ($arrAssuntoEntity as $assunto) {
             /** @var Assunto $assunto */
-            $qtdDeQuestoes = mt_rand(1000, 1500);
+            $qtdDeQuestoes = 500;
             $this->salvarQuestoesPorAssunto($arrBancaEntity, $arrOrgaoEntity, $assunto, $qtdDeQuestoes, $manager);
         }
     }
@@ -137,24 +135,32 @@ class AppFixtures extends Fixture
 
     private function salvarQuestaoPorAssunto(array $arrOrgaoEntity, array $arrBancaEntity, Assunto $assunto, int $numQuestao, ObjectManager $manager)
     {
-        $qtdDeOrgaosEbancas = sizeof($arrBancaEntity);
+        foreach ($arrOrgaoEntity as $orgaoEntity) {
+            /** @var Orgao $orgaoEntity */
+            $this->salvarQuestaoPorOrgaoEBancas($orgaoEntity, $arrBancaEntity, $assunto, $numQuestao, $manager);
+        }
+    }
 
-        for ($posicaoBancaEOrgao = 0; $posicaoBancaEOrgao < $qtdDeOrgaosEbancas; $posicaoBancaEOrgao++) {
-            $podeExecutarInsert = (mt_rand(0, 999999) % 2);
+    private function salvarQuestaoPorOrgaoEBancas(Orgao $orgaoEntity, array $arrBancaEntity, Assunto $assunto, int $numQuestao, ObjectManager $manager)
+    {
+        foreach ($arrBancaEntity as $bancaEntity) {
+            /** @var Banca $bancaEntity */
+            $this->salvarQuestaoPorOrgaoEBanca($orgaoEntity, $bancaEntity, $assunto, $numQuestao, $manager);
+            $manager->flush();
+        }
+    }
 
-            if($podeExecutarInsert) {
-                /** @var Banca $banca */
-                $banca = $arrBancaEntity[$posicaoBancaEOrgao];
-                /** @var Orgao $orgao */
-                $orgao = $arrOrgaoEntity[$posicaoBancaEOrgao];
+    private function salvarQuestaoPorOrgaoEBanca(Orgao $orgaoEntity, Banca $bancaEntity, Assunto $assunto, int $numQuestao, ObjectManager $manager)
+    {
+        $podeExecutarInsert = (mt_rand(0, 999999) % 2);
 
-                $questao = new Questao();
-                $questao->setNome("Questão - {$banca->getId()} - {$orgao->getId()} - {$numQuestao}");
-                $questao->setAssunto($assunto);
-                $questao->setBanca($banca);
-                $questao->setOrgao($orgao);
-                $manager->persist($questao);
-            }
+        if($podeExecutarInsert) {
+            $questao = new Questao();
+            $questao->setNome("Questão - {$bancaEntity->getId()} - {$orgaoEntity->getId()} - {$numQuestao}");
+            $questao->setAssunto($assunto);
+            $questao->setBanca($bancaEntity);
+            $questao->setOrgao($orgaoEntity);
+            $manager->persist($questao);
         }
     }
 }

@@ -4,6 +4,11 @@
     <list default="true" id="619c0cf0-2851-43ae-bf54-10702fc0824d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/src/Migrations/Version20191201165937.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/src/Migrations/Version20191201173156.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/src/Migrations/Version20191201173313.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/src/Migrations/Version20191201174300.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +135,7 @@
       <updated>1575153757212</updated>
       <workItem from="1575153758912" duration="7529000" />
       <workItem from="1575165275752" duration="12801000" />
-      <workItem from="1575211395432" duration="34358000" />
+      <workItem from="1575211395432" duration="43461000" />
     </task>
     <task id="LOCAL-00001" summary="[CHORE] Estrutura Inicial do projeto">
       <created>1575166189238</created>
@@ -230,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575298036182</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[CHORE] criando README.md">
+      <created>1575305757883</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575305757883</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +258,8 @@
     <MESSAGE value="[FEAT] Serviços do Programa de Estudos" />
     <MESSAGE value="[FEAT] Serviços do Programa de Estudos&#10;[FEAT] Criação do front end" />
     <MESSAGE value="[FEAT] Criação do front end" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEAT] Criação do front end" />
+    <MESSAGE value="[CHORE] criando README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[CHORE] criando README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="581" y="215" width="800" height="684" key="#Plugins" timestamp="1575246590841">
@@ -277,10 +290,10 @@
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="730" y="94" width="501" height="926" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/52.27.1868.1053@52.27.1868.1053" timestamp="1575225516560" />
-    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2" timestamp="1575298036020">
+    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2" timestamp="1575305757794">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575298036020" />
+    <state x="419" y="125" width="992" height="839" key="CommitChangelistDialog2/52.27.1868.1053@52.27.1868.1053" timestamp="1575305757794" />
     <state x="229" y="121" width="1494" height="879" key="DiffContextDialog" timestamp="1575206749780">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
@@ -321,14 +334,14 @@
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="1296" y="471" width="303" height="171" key="VCS.ChangelistChooser/52.27.1868.1053@52.27.1868.1053" timestamp="1575220361203" />
-    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575298038041">
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1575305759459">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1868.1053@52.27.1868.1053" timestamp="1575298038041" />
-    <state x="802" y="450" width="367" height="237" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1575219352682">
+    <state x="581" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1868.1053@52.27.1868.1053" timestamp="1575305759459" />
+    <state x="802" y="450" width="367" height="237" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1575318220664">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
-    <state x="802" y="450" width="367" height="237" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/52.27.1868.1053@52.27.1868.1053" timestamp="1575219352682" />
+    <state x="802" y="450" width="367" height="237" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/52.27.1868.1053@52.27.1868.1053" timestamp="1575318220664" />
     <state x="719" y="361" width="524" height="391" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1575216359534">
       <screen x="52" y="27" width="1868" height="1053" />
     </state>
